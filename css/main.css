@@ -1,0 +1,55 @@
+html {
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.btn {
+  background-color: darkblue;
+  border-color: white;
+}
+
+.button-width {
+  min-width: 10rem;
+}
+
+header {
+  background-color: darkblue;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner-text {
+  color: white;
+}
+
+.white-text {
+  color: white;
+}
+
+.masthead {
+  background-color: darkblue;
+  color: white;
+}
+
+.bot-nav {
+  background-color: darkblue;
+}
+
+.copyright {
+  background-color: 	#484848;
+  color: white;
+}
+
+p {
+  color: darkblue;
+}
+
+.darkbox {
+  background-color: silver;
+}
