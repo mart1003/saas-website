@@ -46,6 +46,10 @@ a {
   color: white;
 }
 
+.dark-text {
+  color: darkblue;
+}
+
 p {
   color: darkblue;
 }
