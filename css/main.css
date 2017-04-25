@@ -74,26 +74,47 @@ p {
   padding: 10px;
 }
 
+.lrg-hide {
+  display: none;
+}
+
 @media only screen and (min-width: 25em) {
 
-
+  .lrg-hide {
+    display: none;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-
+  .small-hide {
+    display: none;
+  }
+  .lrg-hide {
+    display: block;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-
+  .small-hide {
+    display: none;
+  }
+  .lrg-hide {
+    display: block;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
 
-
+  .small-hide {
+    display: none;
+  }
+  .lrg-hide {
+    display: block;
+  }
 
 }
