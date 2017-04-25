@@ -25,7 +25,45 @@
     </nav>
   </header>
 
-  <main>
+  <main class="grid push">
+    <div class="pad-0">
+      <img class="img-flex relative small-hide" src="images/sign-up-banner-small.jpg" alt="">
+      <img class="img-flex relative lrg-hide" src="images/sign-up-banner-lrg.jpg" alt="">
+      <div class="unit absolute pin-center text-center height-half">
+        <h1 class="banner-text push-1-2 zetta bold">Sign-up.</h1>
+        <p class="banner-text">Sign-up today and start making stylish prind media with ease.</p>
+      </div>
+    </div>
+
+    <fieldset class="grid island">
+      <form class="push-0 grid" method="post" action="https://formspree.io/mart1003@algonquinlive.com">
+        <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 island-1-2">
+          <label for="name">Name</label>
+          <input id="name" name="name">
+        </div>
+        <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 island-1-2">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 island-1-2">
+          <label for="pw">Password</label>
+          <input type="password" id="pw" name="pw">
+        </div>
+        <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 island-1-2">
+          <label for="type">Subscription type</label>
+          <select name="type" id="subscription">
+            <option>Pick a subscription</option>
+            <option>Basic</option>
+            <option>Standard</option>
+            <option>Premium</option>
+          </select>
+        </div>
+        <div class="unit island-1-2">
+          <button class="btn giga" type="submit">Join Templay</button>
+          <input type="hidden" name="subject" value="Request to join the mission">
+        </div>
+      </form>
+    </fieldset>
 
   </main>
 
