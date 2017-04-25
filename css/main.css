@@ -70,6 +70,30 @@ p {
 .article {
   display: block;
   margin: auto;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #888;
   padding: 10px;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
 }
